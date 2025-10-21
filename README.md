@@ -11,6 +11,31 @@ A Next.js application that helps users understand their financial spending throu
 - **Mobile-First Design**: Beautiful, responsive UI optimized for mobile devices
 - **Real-time Dashboard**: Track spending, view subscriptions, and monitor financial habits
 
+## Project Status
+
+### ✅ Completed Features
+- [x] Next.js 14 project setup with TypeScript and Tailwind CSS
+- [x] Supabase authentication system
+- [x] Dual data import (Plaid API + PDF upload)
+- [x] Tinder-style swipeable transaction interface
+- [x] Mobile-first responsive dashboard
+- [x] Custom design system matching inspiration
+- [x] API routes for Plaid and PDF processing
+- [x] Protected route middleware
+- [x] Onboarding wizard flow
+
+### 🚧 In Progress
+- [ ] Supabase database schema setup
+- [ ] PDF processing and OpenAI integration testing
+- [ ] Subscription detection algorithm
+- [ ] Habit tracking features
+
+### 📋 Next Steps
+- [ ] Environment variables configuration
+- [ ] Plaid sandbox testing
+- [ ] Real PDF statement testing
+- [ ] Vercel deployment
+
 ## Tech Stack
 
 - **Frontend**: Next.js 14, TypeScript, Tailwind CSS, shadcn/ui
@@ -35,7 +60,7 @@ A Next.js application that helps users understand their financial spending throu
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/charenk/habitcents-poc.git
    cd habitcents-poc
    ```
 
